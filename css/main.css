@@ -13,12 +13,6 @@ body {
   font-size:1em;
 }
 
-p {
-/*  padding: 0px 30px;
-  line-height: 21px;
-  font-size: 14px;*/
-}
-
 /***HEADER***/
 
 header {
@@ -146,7 +140,72 @@ header {
     padding-bottom: 10px;
 }
 
+}
 @media (min-width:940px) {
 header {
   font-size: 1em;
+  width: 90%;
+}
+
+header h1 {
+  width: 25%;
+  float: left;
+  font-size: 1.5em;
+  border: none;
+  text-align: left;
+}
+
+nav ul {
+  float: right;
+  padding-top:10px;
+}
+
+nav ul li {
+  float: left;
+  padding-right: 15px;
+}
+
+.top-section {
+  font-size:1em;
+}
+
+.top-section img {
+  border-top: 2px solid #77a466;
+  border-bottom: 2px solid #77a466;
+}
+
+.top-section #about h3 {
+  font-size: 1em;
+}
+
+.bottom-section #specials, #reviews, #contact{
+  width:33%;
+  float:left;
+  border-bottom: none;
+  height:auto;
+}
+
+.bottom-section #specials, #reviews {
+  border-right: 1px solid #ccc;
+}
+
+#specials {
+    padding-bottom: 42px;
+}
+
+.bottom-section #reviews h4, #contact h4{
+  padding: 0 30px;
+}
+
+.bottom-section p {
+  padding: 0 30px;
+}
+
+footer {
+  width:90%;
+  margin:auto;
+  clear: both;
+  border-top:1px solid #ccc;
+}
+
 }
