@@ -19,17 +19,17 @@ header {
   width: 100%;
   height: auto;
   margin: auto;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 header h1 {
   color: #77a466;
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 1.4em;
+  margin: auto;
   padding: 15px 0;
-  float: left;
-  width: 100%;
-  border-bottom: 7px solid #77a466;
+  width: 95%;
+  border-bottom: 5px solid #77a466;
   text-align: center;
 }
 
@@ -41,6 +41,10 @@ nav {
   text-transform: uppercase;
 }
 
+nav ul {
+  padding-left: 0;
+}
+
 nav ul li {
   list-style:none;
   text-align: center;
@@ -50,23 +54,23 @@ nav ul li {
 nav ul li a {
   text-decoration:none;
   color: #77a466;
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-weight: bold;
 }
 
 /***TOP SECTION ***/
 
 .top-section {
-  width: 90%;
+  width: 95%;
   margin:auto;
   border-bottom: 1px solid #ccc;
-  font-size:1.875em;
+  font-size:1em;
 }
 
 .top-section img {
   width:100%;
-  border-top: 7px solid #77a466;
-  border-bottom: 7px solid #77a466;
+  border-top: 5px solid #77a466;
+  border-bottom: 5px solid #77a466;
 }
 
 .top-section #about h3 {
@@ -77,15 +81,15 @@ nav ul li a {
 }
 
 #about p {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 /*** BOTTOM SECTION ***/
 
 .bottom-section {
-  width: 90%;
+  width: 95%;
   margin: auto;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .bottom-section #specials, #reviews, #contact {
@@ -125,15 +129,15 @@ footer span {
 
 @media (min-width:768px) {
 header {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .top-section {
-  font-size:1.5em;
+  font-size:1em;
 }
 
 .bottom-section {
-  font-size:0.9em;
+  font-size:0.8em;
 }
 
 #specials li {
@@ -144,7 +148,7 @@ header {
 @media (min-width:940px) {
 header {
   font-size: 1em;
-  width: 90%;
+  width: 95%;
 }
 
 header h1 {
@@ -153,6 +157,7 @@ header h1 {
   font-size: 1.5em;
   border: none;
   text-align: left;
+  padding-top: 20px;
 }
 
 nav ul {
@@ -166,7 +171,7 @@ nav ul li {
 }
 
 .top-section {
-  font-size:1em;
+  font-size:.9em;
 }
 
 .top-section img {
@@ -175,7 +180,7 @@ nav ul li {
 }
 
 .top-section #about h3 {
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 .bottom-section #specials, #reviews, #contact{
@@ -190,7 +195,7 @@ nav ul li {
 }
 
 #specials {
-    padding-bottom: 42px;
+    padding-bottom: 15px;
 }
 
 .bottom-section #reviews h4, #contact h4{
@@ -202,7 +207,7 @@ nav ul li {
 }
 
 footer {
-  width:90%;
+  width:95%;
   margin:auto;
   clear: both;
   border-top:1px solid #ccc;
